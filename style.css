@@ -38,22 +38,17 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     padding: 20px;
 }
 
 nav a:hover {
-    color: red;
+    color: black;
 
 }
 
 .container {
     padding: 20px;
-}
-.bg{
-    background-image: url("images.html/bg.jpg");
-    background-image: initial;
-
 }
 
 h2 {
@@ -85,14 +80,13 @@ footer a:hover {
 #contact a {
     border-color: #000000;
 
-    /* padding-left: 20px; */
     margin-bottom: auto;
-    /* margin-right: 10px; */
     text-decoration: none;
 
 }
-#contact{
+#contact,h2,a{
     padding-left:20px;
+    color: white;
 }
 
 text{
@@ -109,7 +103,6 @@ text{
         margin: auto;
 
 }
-
 
 #courses{
     font-size: 20px;
