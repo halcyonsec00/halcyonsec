@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
 
     <header>
 
-       <a href="https://telegram.me/Halcyonsec"> <h1>Halcyonsec</h1> </a>
+       <a href="index.html"> <h1>Halcyonsec</h1> </a>
 
     </header>
 
@@ -58,10 +59,20 @@
                 </div>
     <div class="hello">
         <section id="contact">
-            <h2>contact here</h2>
-            <p> contact via telegram or instagram to enroll the course </p>
-            <h2><a href="https://telegram.me/Halcyonsec">telegram</a></h2>
-            <h2><a href="https://www.instagram.com/halcyonsec/" >instagram</a></h2>
+            
+            <button id="openPopup">To enroll</button>
+
+            <div class="popup-overlay" id="popupOverlay">
+                <div class="popup">
+                    <span class="close-btn" id="closePopup">&times;</span>
+                    <h2>message us to learn more</h2>
+
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com" target="_blank">telegram</a>
+                </div>
+            </div>
+        
+            <script src="scripts.js"></script>
         </section>
     </div>
     </div>
